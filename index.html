@@ -8,13 +8,52 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./favicon-32x32.png"
+      href="./assets/favicon-32x32.png"
     />
     <title>Swiper slider</title>
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            src="./assets/img/Fantasy 1.jpg"
+            alt="Cold wind Fantasy"
+            title="Cold wind Fantasy"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/img/Fantasy 2.jpg"
+            alt="Livefull waterfall Fantasy"
+            title="Livefull waterfall Fantasy"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/img/Fantasy 3.jpg"
+            alt="Deserted sand Fantasy"
+            title="Deserted sand Fantasy"
+          />
+        </div>
+        <!-- ... -->
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
     <script src="./js/swiper-bundle.min.js" defer></script>
     <script src="./js/index.js" defer></script>
   </body>
