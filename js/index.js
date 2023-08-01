@@ -11,6 +11,7 @@ const swiper = new Swiper('.swiper', {
   effect: 'slider', // slider, cards, coverflow, flip, fade, cube,
   // initialSlide: 1, // устанавливает начальное отображение с указанного слайда
   // slidesPerView: 2, // количество одновременно отображаемых слайдов
+  // spacebetween: 20, // расстояние между соседними слайдами
   // centeredSlides: true, // центрироивание слайдов
   // freemode: true, // свободное пролистывание ленты
 
